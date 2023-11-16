@@ -49,3 +49,5 @@ authRouter.put(
   [useVerifyLimiter, useVerifySlowDown],
   AuthController.changePassword
 );
+
+export default authRouter
